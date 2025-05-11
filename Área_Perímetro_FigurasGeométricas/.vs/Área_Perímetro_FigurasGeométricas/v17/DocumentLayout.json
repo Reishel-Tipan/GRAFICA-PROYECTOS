@@ -1,0 +1,905 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|c:\\users\\reishel\\documents\\u abril25-agost25\\gr\u00E1fica\\proyectos\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmkite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmkite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmkite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmkite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\kite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\kite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\trapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\trapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\trapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\trapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmtrapezium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrhomboid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmpentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmpentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmpentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmpentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\pentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\pentagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\oval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\oval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\octagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\octagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoctagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoctagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\nonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\nonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoctagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmoctagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmnonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmnonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmnonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmnonagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmisoscelestrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmisoscelestrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\isoscelestrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\isoscelestrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\hexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\hexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmhexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmhexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmhexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmhexagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmheptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmheptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmheptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmheptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\heptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\heptagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmdecagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmdecagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\decagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\decagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmdecagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmdecagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\frmcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE83DB76-9837-4CD2-A26E-57109EAE3B46}|\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas.csproj|solutionrelative:\u00E1rea_per\u00EDmetro_figurasgeom\u00E9tricas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmKite.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:11:14.776Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Kite.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Kite.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Kite.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Kite.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Kite.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA2wDwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:29:25.806Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmKite.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmKite.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:23:43.589Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmTriangle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:21:06.426Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmTriangle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTriangle.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:31:37.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:10:35.188Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPrincipal.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:33:44.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Triangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Triangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Triangle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Triangle.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:27:03.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmRhombus.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:41:55.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmRhombus.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhombus.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:21:58.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmTrapezoid.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:22:36.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Trapezoid.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezoid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezoid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezoid.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezoid.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:28:26.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmTrapezoid.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezoid.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:29:53.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmTrapezium.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:28:07.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmTrapezium.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmTrapezium.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:22:52.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Trapezium.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezium.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezium.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezium.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Trapezium.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:28:36.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmSquare.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:26:28.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmSquare.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmSquare.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:21:20.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Square.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Square.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Square.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:27:18.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Rhombus.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhombus.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhombus.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhombus.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhombus.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:27:58.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmRhomboid.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:24:04.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Rhomboid.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhomboid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhomboid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhomboid.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rhomboid.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:29:38.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmRhomboid.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRhomboid.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:23:27.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FrmRectangle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:21:31.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmRectangle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmRectangle.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:22:08.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rectangle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rectangle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Rectangle.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:27:36.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmPentagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:21:06.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FrmPentagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmPentagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:22:24.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Pentagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Pentagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Pentagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Pentagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Pentagon.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:28:12.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FrmOval.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:19:36.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FrmOval.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOval.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:23:31.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Oval.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Oval.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Oval.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Oval.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Oval.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:29:12.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Octagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Octagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Octagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Octagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Octagon.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:30:15.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FrmOctagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:15:22.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FrmOctagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmOctagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:24:53.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Nonagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Nonagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Nonagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Nonagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Nonagon.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:30:29.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FrmNonagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:13:47.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FrmNonagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmNonagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:25:35.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FrmIsoscelesTrapezoid.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmIsoscelesTrapezoid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmIsoscelesTrapezoid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmIsoscelesTrapezoid.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmIsoscelesTrapezoid.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:23:07.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IsoscelesTrapezoid.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\IsoscelesTrapezoid.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\IsoscelesTrapezoid.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\IsoscelesTrapezoid.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\IsoscelesTrapezoid.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:28:49.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FrmHeptagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:24:36.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FrmHexagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:24:23.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FrmHexagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHexagon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:58:51.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Hexagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Hexagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Hexagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Hexagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Hexagon.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:29:50.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FrmHeptagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmHeptagon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:45:06.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Ellipse.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Ellipse.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Ellipse.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Ellipse.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Ellipse.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:29:00.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Heptagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Heptagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Heptagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Heptagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Heptagon.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA7wEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:30:01.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FrmEllipse.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:38:10.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FrmEllipse.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmEllipse.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:23:19.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "FrmCircle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:12:23.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FrmDecagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:47:33.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Decagon.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Decagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Decagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Decagon.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Decagon.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:30:40.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FrmDecagon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmDecagon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:47:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FrmCircle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\FrmCircle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:21:45.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Circle.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Circle.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Circle.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Circle.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:27:48.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Program.cs",
+              "RelativeDocumentMoniker": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Program.cs",
+              "ToolTip": "C:\\Users\\Reishel\\Documents\\U abril25-agost25\\GR\u00C1FICA\\proyectos\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Program.cs",
+              "RelativeToolTip": "\u00C1rea_Per\u00EDmetro_FigurasGeom\u00E9tricas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:16:36.891Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
