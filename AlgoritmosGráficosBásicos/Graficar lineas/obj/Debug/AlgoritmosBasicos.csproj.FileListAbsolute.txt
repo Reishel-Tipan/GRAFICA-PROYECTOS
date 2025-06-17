@@ -1,0 +1,9 @@
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.csproj.AssemblyReference.cache
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.FrmBresenham.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.FrmCircunferencia.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.FrmLineas.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.FrmHome.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.FrmRellenado.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.Properties.Resources.resources
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.csproj.GenerateResource.cache
+C:\Users\Reishel\Downloads\Graficar lineas\Graficar lineas\obj\Debug\AlgoritmosBasicos.csproj.CoreCompileInputs.cache

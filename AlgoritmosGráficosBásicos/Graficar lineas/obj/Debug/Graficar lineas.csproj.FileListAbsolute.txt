@@ -1,0 +1,22 @@
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.exe.config
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.exe
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.pdb
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.AssemblyReference.cache
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.FrmLineas.resources
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.Properties.Resources.resources
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.GenerateResource.cache
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.CoreCompileInputs.cache
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.exe
+D:\Grafica\Primer Parecial\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.pdb
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.exe.config
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.exe
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\bin\Debug\Graficar lineas.pdb
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.AssemblyReference.cache
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.FrmLineas.resources
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.Properties.Resources.resources
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.GenerateResource.cache
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.csproj.CoreCompileInputs.cache
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.exe
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar lineas.pdb
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.FrmBresenham.resources
+D:\Grafica\Segundo Parcial\Graficar lineas\Graficar lineas\Graficar lineas\obj\Debug\Graficar_lineas.FrmInicio.resources
