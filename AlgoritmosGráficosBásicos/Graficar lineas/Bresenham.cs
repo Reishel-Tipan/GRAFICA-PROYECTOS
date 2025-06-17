@@ -18,7 +18,7 @@ namespace Graficar_lineas
         private const int MaxCellSize = 60; // Tamaño máximo de celda
         private const int MinCellSize = 20; // Tamaño mínimo de celda
         private const int AnimationDelay = 50; // Retraso entre animaciones en milisegundos
-        private readonly Color lineColor = Color.LimeGreen;
+        private readonly Color lineColor = Color.FromArgb(200, 147, 112, 219); // Lila claro con transparencia
         private bool animationComplete = false;
 
         public Bresenham(PictureBox pictureBox)
