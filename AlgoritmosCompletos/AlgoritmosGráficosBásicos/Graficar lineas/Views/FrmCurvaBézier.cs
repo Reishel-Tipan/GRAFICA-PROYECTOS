@@ -175,5 +175,15 @@ namespace Graficar_lineas.Views
                     "Puntos agregados", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FrmCurvaBézier_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

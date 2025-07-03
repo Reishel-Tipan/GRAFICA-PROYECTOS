@@ -40,6 +40,7 @@
             this.BtnColorSet = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnInicio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictuCanva)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.ColorBox.SuspendLayout();
@@ -58,7 +59,7 @@
             // 
             this.BtnBezier.BackColor = System.Drawing.SystemColors.Window;
             this.BtnBezier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BtnBezier.Location = new System.Drawing.Point(159, 328);
+            this.BtnBezier.Location = new System.Drawing.Point(170, 326);
             this.BtnBezier.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBezier.Name = "BtnBezier";
             this.BtnBezier.Size = new System.Drawing.Size(97, 37);
@@ -70,7 +71,7 @@
             // 
             this.BtnStartAnimation.BackColor = System.Drawing.SystemColors.Window;
             this.BtnStartAnimation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BtnStartAnimation.Location = new System.Drawing.Point(159, 388);
+            this.BtnStartAnimation.Location = new System.Drawing.Point(170, 387);
             this.BtnStartAnimation.Margin = new System.Windows.Forms.Padding(4);
             this.BtnStartAnimation.Name = "BtnStartAnimation";
             this.BtnStartAnimation.Size = new System.Drawing.Size(97, 37);
@@ -165,12 +166,24 @@
             this.label1.TabIndex = 68;
             this.label1.Text = "Ingresa el número de puntos:";
             // 
+            // btnInicio
+            // 
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(186, 446);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 69;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
             // FrmCurvaBézier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1045, 546);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.txtNumerodePuntos);
@@ -182,6 +195,7 @@
             this.Name = "FrmCurvaBézier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Curvas de Bézier";
+            this.Load += new System.EventHandler(this.FrmCurvaBézier_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictuCanva)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ColorBox.ResumeLayout(false);
@@ -204,5 +218,6 @@
         private System.Windows.Forms.Button BtnColorSet;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

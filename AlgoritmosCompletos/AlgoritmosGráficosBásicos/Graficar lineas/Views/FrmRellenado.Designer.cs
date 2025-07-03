@@ -31,6 +31,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listBoxVértices = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnReseat = new System.Windows.Forms.Button();
             this.btnGraficar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +43,7 @@
             this.txtX_1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.picDibujo = new System.Windows.Forms.PictureBox();
-            this.btnReseat = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -73,6 +74,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnInicio);
             this.groupBox2.Controls.Add(this.btnReseat);
             this.groupBox2.Controls.Add(this.btnGraficar);
             this.groupBox2.Controls.Add(this.label2);
@@ -92,9 +94,20 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
+            // btnReseat
+            // 
+            this.btnReseat.Location = new System.Drawing.Point(203, 87);
+            this.btnReseat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReseat.Name = "btnReseat";
+            this.btnReseat.Size = new System.Drawing.Size(97, 37);
+            this.btnReseat.TabIndex = 11;
+            this.btnReseat.Text = "Limpiar";
+            this.btnReseat.UseVisualStyleBackColor = true;
+            this.btnReseat.Click += new System.EventHandler(this.btnReseat_Click_1);
+            // 
             // btnGraficar
             // 
-            this.btnGraficar.Location = new System.Drawing.Point(203, 56);
+            this.btnGraficar.Location = new System.Drawing.Point(203, 42);
             this.btnGraficar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGraficar.Name = "btnGraficar";
             this.btnGraficar.Size = new System.Drawing.Size(97, 37);
@@ -199,15 +212,16 @@
             this.picDibujo.TabIndex = 0;
             this.picDibujo.TabStop = false;
             // 
-            // btnReseat
+            // btnInicio
             // 
-            this.btnReseat.Location = new System.Drawing.Point(203, 111);
-            this.btnReseat.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReseat.Name = "btnReseat";
-            this.btnReseat.Size = new System.Drawing.Size(97, 37);
-            this.btnReseat.TabIndex = 11;
-            this.btnReseat.Text = "Limpiar";
-            this.btnReseat.UseVisualStyleBackColor = true;
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(218, 132);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 13;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // FrmRellenado
             // 
@@ -249,5 +263,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox picDibujo;
         private System.Windows.Forms.Button btnReseat;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

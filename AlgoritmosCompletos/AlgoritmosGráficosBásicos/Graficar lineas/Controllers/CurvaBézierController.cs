@@ -139,8 +139,22 @@ namespace Graficar_lineas.Controllers
 
         public void ActualizarColor(Color color)
         {
+            if (color == null) return;
+            
             colorActual = color;
-            pen.Color = color;
+            
+            // Crear un nuevo lápiz con el color actualizado
+            var oldPen = pen;
+            pen = new Pen(color, anchoLinea);
+            
+            // Actualizar el lápiz en el objeto linea
+            if (linea != null)
+            {
+                linea.ActualizarLapiz(pen);
+            }
+            
+            // Liberar el lápiz anterior
+            oldPen?.Dispose();
         }
 
         public void ActualizarGrosor(int grosor)

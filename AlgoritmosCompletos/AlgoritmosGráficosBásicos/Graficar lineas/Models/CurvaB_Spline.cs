@@ -1,128 +1,165 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Graficar_lineas.Models
 {
-    public class CurvaB_Spline
+    public class CurvaB_Spline : IDisposable
     {
         private Graphics graphics;
         private Pen pen;
         private bool mostrarPuntosControl = true;
         private bool mostrarLineasControl = true;
+        private bool disposed = false;
+        
+        // Implementación de IDisposable
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+        
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposed)
+            {
+                if (disposing)
+                {
+                    // Liberar recursos administrados
+                    pen?.Dispose();
+                    // No se debe liberar graphics aquí ya que no lo creamos nosotros
+                }
+                
+                // Liberar recursos no administrados
+                
+                disposed = true;
+            }
+        }
+        
+        ~CurvaB_Spline()
+        {
+            Dispose(false);
+        }
 
         public CurvaB_Spline(Graphics graphics, Pen pen)
         {
-            this.graphics = graphics;
-            this.pen = pen;
+            this.graphics = graphics ?? throw new ArgumentNullException(nameof(graphics));
+            this.pen = pen ?? throw new ArgumentNullException(nameof(pen));
+            
+            if (this.graphics != null)
+            {
+                this.graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            }
         }
 
-        // Método para calcular el valor de la base B-spline (versión no recursiva)
+        public void ActualizarLapiz(Pen nuevoPen)
+        {
+            if (nuevoPen == null) return;
+            
+            // Liberar el lápiz anterior si existe
+            if (pen != null)
+            {
+                pen.Dispose();
+            }
+            
+            // Asignar el nuevo lápiz
+            pen = (Pen)nuevoPen.Clone();
+        }
+
+        // Método para calcular el valor de la base B-spline (versión optimizada)
         private double BaseBSpline(int i, int k, double t, List<double> nodos)
         {
             // Validaciones básicas
             if (nodos == null || nodos.Count == 0 || i < 0 || k <= 0)
                 return 0.0;
 
-            // Si solo hay un punto, devolver 1 si t está en [0,1]
-            if (nodos.Count == 1)
-                return (t >= 0 && t <= 1) ? 1.0 : 0.0;
-
-            // Para k=1 (primer orden)
-            if (k == 1)
-            {
-                if (i >= nodos.Count - 1)
-                    return 0.0;
-                return (t >= nodos[i] && t < nodos[i + 1]) ? 1.0 : 0.0;
-            }
-
             // Para órdenes superiores, usar el algoritmo de Cox-de Boor
-            double resultado = 0.0;
-            double den1 = nodos[i + k - 1] - nodos[i];
-            double den2 = (i + k < nodos.Count) ? (nodos[i + k] - nodos[i + 1]) : 0;
-
-            // Primer término
-            if (den1 != 0)
+            if (k > 1)
             {
-                double coef1 = (t - nodos[i]) / den1;
-                resultado += coef1 * BaseBSpline(i, k - 1, t, nodos);
-            }
+                double resultado = 0.0;
+                double den1 = nodos[i + k - 1] - nodos[i];
+                double den2 = (i + k < nodos.Count) ? (nodos[i + k] - nodos[i + 1]) : 0;
 
-            // Segundo término
-            if (den2 != 0 && (i + 1) < nodos.Count)
+                // Primer término
+                if (den1 > 0)
+                {
+                    double coef1 = (t - nodos[i]) / den1;
+                    resultado += coef1 * BaseBSpline(i, k - 1, t, nodos);
+                }
+
+                // Segundo término
+                if (den2 > 0 && (i + 1) < nodos.Count)
+                {
+                    double coef2 = (nodos[i + k] - t) / den2;
+                    resultado += coef2 * BaseBSpline(i + 1, k - 1, t, nodos);
+                }
+
+                return resultado;
+            }
+            else // k == 1
             {
-                double coef2 = (nodos[i + k] - t) / den2;
-                resultado += coef2 * BaseBSpline(i + 1, k - 1, t, nodos);
+                // Base de primer orden (función escalón)
+                if (i < nodos.Count - 1 && t >= nodos[i] && t < nodos[i + 1])
+                    return 1.0;
+                
+                // Manejar el caso del último nodo (incluirlo)
+                if (i == nodos.Count - 2 && Math.Abs(t - nodos[i + 1]) < 1e-10)
+                    return 1.0;
+                    
+                return 0.0;
             }
-
-            return resultado;
         }
 
-        // Genera un vector de nodos uniforme para B-spline con manejo robusto de casos límite
-        private List<double> GenerarVectorNodos(int n, int k)
+        // Genera un vector de nodos uniforme para B-spline abierta
+        private List<double> GenerarVectorNodos(int numPuntos, int grado)
         {
             var nodos = new List<double>();
             
             // Validación de parámetros
-            if (n <= 0 || k <= 0)
+            if (numPuntos <= 0 || grado <= 0)
+                return new List<double> { 0, 0, 1, 1 }; // Nodos predeterminados
+                
+            // Asegurar que el grado sea válido
+            if (grado >= numPuntos)
+                grado = numPuntos - 1;
+                
+            // Para curvas B-spline abiertas, necesitamos n + k + 1 nodos
+            // donde n = numPuntos - 1 (índice del último punto)
+            // y k = grado + 1 (orden de la curva)
+            int n = numPuntos - 1;
+            int k = grado + 1;
+            int numNodos = n + k + 1;
+            
+            // Crear nodos uniformemente espaciados
+            for (int i = 0; i < numNodos; i++)
             {
-                // Retornar un vector de nodos predeterminado en caso de parámetros inválidos
-                return new List<double> { 0, 0, 1, 1 };
-            }
-            
-            // Asegurar que k no sea mayor que n
-            k = Math.Min(k, n);
-            
-            // Para curvas B-spline abiertas, los primeros y últimos k nodos son iguales
-            // Esto asegura que la curva pase por los puntos inicial y final
-            
-            // Primeros k nodos en 0
-            for (int i = 0; i < k; i++)
-                nodos.Add(0);
-            
-            // Nodos intermedios uniformemente espaciados
-            int numNodosIntermedios = n - k + 1;
-            
-            // Asegurar al menos un nodo intermedio
-            if (numNodosIntermedios <= 1)
-            {
-                // Si no hay suficientes puntos para nodos intermedios, 
-                // solo agregar un nodo en 0.5
-                if (nodos.Count < 2) // Asegurar al menos 2 nodos
-                    nodos.Add(0.5);
-            }
-            else
-            {
-                // Agregar nodos intermedios uniformemente espaciados
-                for (int i = 1; i < numNodosIntermedios; i++)
+                // Los primeros 'k' nodos son 0
+                if (i < k)
                 {
-                    double valor = (double)i / numNodosIntermedios;
-                    nodos.Add(valor);
+                    nodos.Add(0);
+                }
+                // Los últimos 'k' nodos son 1
+                else if (i > n)
+                {
+                    nodos.Add(1);
+                }
+                // Nodos intermedios uniformemente espaciados
+                else
+                {
+                    double t = (double)(i - k + 1) / (n - k + 2);
+                    nodos.Add(Math.Max(0, Math.Min(1, t))); // Asegurar que esté entre 0 y 1
                 }
             }
             
-            // Asegurar que el último nodo sea 1.0
-            double ultimoValor = nodos.Count > 0 ? nodos[nodos.Count - 1] : 0;
-            
-            // Agregar nodos finales (k nodos en 1.0)
-            for (int i = 0; i < k; i++)
+            // Asegurar que el primer y último nodo sean 0 y 1 respectivamente
+            if (nodos.Count > 0)
             {
-                // Si ya estamos en 1.0, no es necesario agregar más
-                if (nodos.Count > 0 && Math.Abs(nodos[nodos.Count - 1] - 1.0) < 1e-10)
-                    break;
-                    
-                nodos.Add(1.0);
-            }
-            
-            // Asegurar que tengamos al menos 2 nodos
-            if (nodos.Count < 2)
-            {
-                nodos.Clear();
-                nodos.Add(0.0);
-                nodos.Add(1.0);
+                nodos[0] = 0;
+                nodos[nodos.Count - 1] = 1;
             }
             
             return nodos;
@@ -131,209 +168,183 @@ namespace Graficar_lineas.Models
         // Dibuja la curva B-spline parcial mientras se agregan puntos
         public void DibujarCurvaParcial(List<PointF> puntosControl, int grado, PictureBox pictureBox, Bitmap bitmap, int resolucion = 100)
         {
-            if (puntosControl == null || puntosControl.Count <= grado)
+            if (puntosControl == null || puntosControl.Count < 2 || bitmap == null || pictureBox == null)
                 return;
 
-            using (Graphics g = Graphics.FromImage(bitmap))
+            try
             {
-                // Dibujar líneas de control si está habilitado
-                if (mostrarLineasControl && puntosControl.Count > 1)
+                using (Graphics g = Graphics.FromImage(bitmap))
                 {
-                    g.DrawLines(Pens.LightGray, puntosControl.ToArray());
-                }
+                    g.SmoothingMode = SmoothingMode.AntiAlias;
+                    g.Clear(Color.White);
 
-                // Dibujar puntos de control si está habilitado
-                if (mostrarPuntosControl)
-                {
-                    foreach (var punto in puntosControl)
+                    // Dibujar líneas de control si está habilitado
+                    if (mostrarLineasControl && puntosControl.Count > 1)
                     {
-                        g.FillEllipse(Brushes.Red, punto.X - 3, punto.Y - 3, 6, 6);
-                    }
-                }
-
-                // Generar vector de nodos para la curva parcial
-                var nodos = GenerarVectorNodos(puntosControl.Count, grado + 1);
-                
-                // Dibujar la curva parcial
-                PointF? puntoAnterior = null;
-                
-                // Ajustar el rango de t para la curva parcial
-                double tMin = nodos[grado];
-                double tMax = nodos[puntosControl.Count - 1]; // Solo hasta el último punto de control
-                
-                // Reducir la resolución para curvas parciales para mejor rendimiento
-                int resolucionParcial = Math.Max(20, resolucion / 2);
-                
-                for (int i = 0; i <= resolucionParcial; i++)
-                {
-                    // Calcular t en el rango [tMin, tMax]
-                    double t = tMin + (tMax - tMin) * i / resolucionParcial;
-                    
-                    // Asegurarse de que t esté dentro de los límites
-                    t = Math.Max(tMin, Math.Min(tMax - 1e-10, t));
-                    
-                    // Calcular el punto en la curva
-                    PointF punto = CalcularPuntoBSpline(t, puntosControl, grado, nodos);
-                    
-                    // Dibujar la línea desde el punto anterior al actual
-                    if (puntoAnterior.HasValue)
-                    {
-                        // Usar un lápiz semitransparente para la curva parcial
-                        using (var penParcial = new Pen(Color.FromArgb(128, pen.Color), pen.Width))
+                        using (var penLinea = new Pen(Color.LightGray, 1) { DashStyle = DashStyle.Dot })
                         {
-                            g.DrawLine(penParcial, puntoAnterior.Value, punto);
+                            g.DrawLines(penLinea, puntosControl.ToArray());
                         }
                     }
-                    
-                    puntoAnterior = punto;
-                }
-            }
-        }
 
-        // Dibuja la curva B-spline completa
-        public void DibujarCurva(List<PointF> puntosControl, int grado, PictureBox pictureBox, Bitmap bitmap, int resolucion = 100)
-        {
-            if (puntosControl == null || puntosControl.Count < 2)
-                return;
-
-            using (Graphics g = Graphics.FromImage(bitmap))
-            {
-                // Limpiar el área de dibujo
-                g.Clear(Color.White);
-                
-                // Dibujar líneas de control si está habilitado
-                if (mostrarLineasControl && puntosControl.Count > 1)
-                {
-                    g.DrawLines(Pens.LightGray, puntosControl.ToArray());
-                }
-
-                // Dibujar puntos de control si está habilitado
-                if (mostrarPuntosControl)
-                {
-                    foreach (var punto in puntosControl)
+                    // Dibujar puntos de control si está habilitado
+                    if (mostrarPuntosControl)
                     {
-                        g.FillEllipse(Brushes.Red, punto.X - 3, punto.Y - 3, 6, 6);
+                        using (var brush = new SolidBrush(Color.Red))
+                        {
+                            foreach (var punto in puntosControl)
+                            {
+                                g.FillEllipse(brush, punto.X - 3, punto.Y - 3, 6, 6);
+                                g.DrawEllipse(Pens.DarkRed, punto.X - 3, punto.Y - 3, 6, 6);
+                            }
+                        }
+                    }
+
+                    // Si hay suficientes puntos para dibujar una curva
+                    // Necesitamos al menos grado + 1 puntos para una curva B-Spline
+                    if (puntosControl.Count > grado)
+                    {
+                        // Asegurar que el grado no sea mayor que el número de puntos - 1
+                        int gradoActual = Math.Min(grado, puntosControl.Count - 1);
+                        
+                        // Generar vector de nodos
+                        var nodos = GenerarVectorNodos(puntosControl.Count, gradoActual);
+                        
+                        // Calcular y dibujar la curva
+                        var puntosCurva = new List<PointF>();
+                        
+                        // Calcular puntos de la curva con más resolución para una curva más suave
+                        for (int i = 0; i <= resolucion; i++)
+                        {
+                            double t = (double)i / resolucion;
+                            puntosCurva.Add(CalcularPuntoBSpline(t, puntosControl, gradoActual, nodos));
+                        }
+                        
+                        // Dibujar la curva
+                        if (puntosCurva.Count > 1)
+                        {
+                            g.DrawCurve(pen, puntosCurva.ToArray());
+                        }
                     }
                 }
 
-                // Si solo hay 2 puntos, dibujar una línea recta
-                // Si solo hay 2 puntos, dibujar una línea recta
-                if (puntosControl.Count == 2)
+                // Actualizar el PictureBox de forma segura
+                if (pictureBox.IsHandleCreated)
                 {
-                    g.DrawLine(pen, puntosControl[0], puntosControl[1]);
-                    
-                    // Actualizar la imagen del PictureBox
                     if (pictureBox.InvokeRequired)
                     {
-                        pictureBox.Invoke(new Action(() => {
-                            pictureBox.Image?.Dispose();
-                            pictureBox.Image = (Bitmap)bitmap.Clone();
+                        pictureBox.BeginInvoke(new Action(() => 
+                        {
+                            pictureBox.Image = bitmap;
+                            pictureBox.Refresh();
                         }));
                     }
                     else
                     {
-                        pictureBox.Image?.Dispose();
-                        pictureBox.Image = (Bitmap)bitmap.Clone();
-                    }
-                    return;
-                }
-
-                // Generar vector de nodos
-                var nodos = new List<double>();
-                int n = puntosControl.Count + grado + 1;
-                for (int i = 0; i < n; i++)
-                {
-                    nodos.Add((double)i / (n - 1));
-                }
-                
-                // Dibujar la curva
-                PointF? puntoAnterior = null;
-                
-                // Ajustar el rango de t para la curva completa
-                double tMin = nodos[grado];
-                double tMax = nodos[puntosControl.Count];
-                
-                // Asegurar que haya al menos 2 puntos para dibujar
-                if (puntosControl.Count >= 2)
-                {
-                    for (int i = 0; i <= resolucion; i++)
-                    {
-                        // Calcular t en el rango [tMin, tMax]
-                        double t = tMin + (tMax - tMin) * i / resolucion;
-                        
-                        // Asegurarse de que t esté dentro de los límites
-                        t = Math.Max(tMin, Math.Min(tMax - 1e-10, t));
-                        
-                        try
-                        {
-                            // Calcular el punto en la curva
-                            PointF punto = CalcularPuntoBSpline(t, puntosControl, grado, nodos);
-                            
-                            // Dibujar la línea desde el punto anterior al actual
-                            if (puntoAnterior.HasValue)
-                            {
-                                g.DrawLine(pen, puntoAnterior.Value, punto);
-                            }
-                            
-                            puntoAnterior = punto;
-                        }
-                        catch
-                        {
-                            // En caso de error, continuar con el siguiente punto
-                            continue;
-                        }
+                        pictureBox.Image = bitmap;
+                        pictureBox.Refresh();
                     }
                 }
-                
-                // Dibujar el último punto de control
-                if (puntosControl.Count > 0)
-                {
-                    var ultimoPunto = puntosControl[puntosControl.Count - 1];
-                    g.FillEllipse(Brushes.Red, ultimoPunto.X - 3, ultimoPunto.Y - 3, 6, 6);
-                }
             }
-            
-            // Actualizar la imagen del PictureBox
-            if (pictureBox.InvokeRequired)
+            catch (Exception ex)
             {
-                pictureBox.Invoke(new Action(() => {
-                    pictureBox.Image?.Dispose();
-                    pictureBox.Image = (Bitmap)bitmap.Clone();
-                }));
-            }
-            else
-            {
-                pictureBox.Image?.Dispose();
-                pictureBox.Image = (Bitmap)bitmap.Clone();
+                // Registrar el error o mostrarlo de alguna manera
+                Console.WriteLine($"Error en DibujarCurvaParcial: {ex.Message}");
             }
         }
 
-        // Calcula un punto en la curva B-spline para un parámetro t dado (versión simplificada)
+        // Dibuja la curva B-spline completa
+        public void DibujarCurva(List<PointF> puntosControl, int grado, PictureBox pictureBox, Bitmap bitmap, int resolucion = 200)
+        {
+            // Validaciones básicas
+            if (puntosControl == null || puntosControl.Count < 2 || bitmap == null || pictureBox == null)
+                return;
+
+            // Fijar grado a 3 máximo para suavidad y control
+            grado = Math.Min(3, puntosControl.Count - 1);
+
+            try
+            {
+                using (Graphics g = Graphics.FromImage(bitmap))
+                {
+                    g.SmoothingMode = SmoothingMode.AntiAlias;
+                    g.Clear(Color.White);
+
+                    // Dibujar líneas de control (opcional)
+                    if (mostrarLineasControl && puntosControl.Count > 1)
+                    {
+                        using (var penLinea = new Pen(Color.LightGray, 1) { DashStyle = DashStyle.Dot })
+                        {
+                            g.DrawLines(penLinea, puntosControl.ToArray());
+                        }
+                    }
+
+                    // Generar vector de nodos para B-Spline abierta
+                    var nodos = GenerarVectorNodos(puntosControl.Count, grado);
+
+                    // Calcular puntos de la curva con alta resolución
+                    List<PointF> puntosCurva = new List<PointF>();
+
+                    // Rango de t basado en nodos para curva abierta
+                    double tMin = nodos[grado];
+                    double tMax = nodos[puntosControl.Count];
+
+                    for (int i = 0; i <= resolucion; i++)
+                    {
+                        double t = tMin + (tMax - tMin) * i / resolucion;
+                        t = Math.Max(tMin, Math.Min(tMax - 1e-10, t));
+
+                        PointF punto = CalcularPuntoBSpline(t, puntosControl, grado, nodos);
+                        puntosCurva.Add(punto);
+                    }
+
+                    // Dibujar la curva con líneas entre puntos calculados (más precisa)
+                    if (puntosCurva.Count > 1)
+                    {
+                        g.DrawLines(pen, puntosCurva.ToArray());
+                    }
+
+                    // Opcional: dibujar puntos de control en rojo
+                    if (mostrarPuntosControl)
+                    {
+                        foreach (var punto in puntosControl)
+                        {
+                            g.FillEllipse(Brushes.Red, punto.X - 3, punto.Y - 3, 6, 6);
+                            g.DrawEllipse(Pens.DarkRed, punto.X - 3, punto.Y - 3, 6, 6);
+                        }
+                    }
+                }
+
+                // Actualizar imagen en el PictureBox de forma segura
+                if (pictureBox.InvokeRequired)
+                {
+                    pictureBox.Invoke(new Action(() =>
+                    {
+                        pictureBox.Image?.Dispose();
+                        pictureBox.Image = (Bitmap)bitmap.Clone();
+                    }));
+                }
+                else
+                {
+                    pictureBox.Image?.Dispose();
+                    pictureBox.Image = (Bitmap)bitmap.Clone();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error en DibujarCurva corregido: {ex.Message}");
+            }
+        }
+
+
+        // Calcula un punto en la curva B-spline para un parámetro t dado
         private PointF CalcularPuntoBSpline(double t, List<PointF> puntosControl, int grado, List<double> nodos)
         {
             try
             {
-                // Validaciones básicas
+                // Validaciones de entrada
                 if (puntosControl == null || puntosControl.Count == 0)
-                    return PointF.Empty;
-
-                // Si solo hay un punto, devolverlo
-                if (puntosControl.Count == 1)
-                    return puntosControl[0];
-
-                // Asegurar que el grado sea válido (1 = lineal, 2 = cuadrático, 3 = cúbico)
-                grado = Math.Max(1, Math.Min(3, puntosControl.Count - 1));
-
-                // Crear un vector de nodos uniforme si no se proporciona uno o es inválido
-                if (nodos == null || nodos.Count == 0 || nodos.Count < puntosControl.Count + grado + 1)
-                {
-                    nodos = new List<double>();
-                    int n = Math.Max(4, puntosControl.Count + grado + 1); // Mínimo 4 nodos para grado 1
-                    for (int i = 0; i < n; i++)
-                    {
-                        nodos.Add((double)i / (n - 1));
-                    }
-                }
+                    return new PointF(0, 0);
 
                 // Asegurar que t esté en el rango [0,1]
                 t = Math.Max(0, Math.Min(1, t));
@@ -412,7 +423,7 @@ namespace Graficar_lineas.Models
         }
 
         // Animación de la curva B-spline
-        public async Task AnimarCurva(List<PointF> puntosControl, int grado, PictureBox pictureBox, Bitmap bitmap, int pasos = 100, int delay = 20)
+        public async Task AnimarCurva(List<PointF> puntosControl, int grado, PictureBox pictureBox, Bitmap bmAnimacion, int pasos = 100, int delay = 20)
         {
             if (puntosControl == null || puntosControl.Count < 2)
                 return;
@@ -422,7 +433,7 @@ namespace Graficar_lineas.Models
                 // Si solo hay 2 puntos, dibujar una línea recta
                 if (puntosControl.Count == 2)
                 {
-                    using (var g = Graphics.FromImage(bitmap))
+                    using (var g = Graphics.FromImage(bmAnimacion))
                     {
                         g.Clear(Color.White);
                         g.DrawLine(pen, puntosControl[0], puntosControl[1]);
@@ -436,13 +447,13 @@ namespace Graficar_lineas.Models
                         {
                             pictureBox.Invoke(new Action(() => {
                                 pictureBox.Image?.Dispose();
-                                pictureBox.Image = (Bitmap)bitmap.Clone();
+                                pictureBox.Image = (Bitmap)bmAnimacion.Clone();
                             }));
                         }
                         else
                         {
                             pictureBox.Image?.Dispose();
-                            pictureBox.Image = (Bitmap)bitmap.Clone();
+                            pictureBox.Image = (Bitmap)bmAnimacion.Clone();
                         }
                     }
                     return;
@@ -482,7 +493,7 @@ namespace Graficar_lineas.Models
                 for (int i = 0; i < puntosCurva.Count; i++)
                 {
                     // Crear un nuevo bitmap para el frame actual
-                    using (var bmFrame = new Bitmap(bitmap.Width, bitmap.Height))
+                    using (var bmFrame = new Bitmap(bmAnimacion.Width, bmAnimacion.Height))
                     using (var g = Graphics.FromImage(bmFrame))
                     {
                         // Dibujar el fondo

@@ -151,40 +151,46 @@ namespace Graficar_lineas.Models
             // Copiar los puntos para la interpolación
             List<PointF> puntosActuales = new List<PointF>(puntos);
             List<PointF> siguientesPuntos = new List<PointF>();
-
-            // Dibujar líneas de construcción
-            while (puntosActuales.Count > 1)
+            List<PointF>[] niveles = new List<PointF>[puntos.Count];
+            
+            // Inicializar el primer nivel con los puntos de control
+            niveles[0] = new List<PointF>(puntos);
+            
+            // Calcular todos los niveles de interpolación
+            for (int nivel = 1; nivel < puntos.Count; nivel++)
             {
-                siguientesPuntos.Clear();
-
-                for (int i = 0; i < puntosActuales.Count - 1; i++)
+                niveles[nivel] = new List<PointF>();
+                for (int i = 0; i < niveles[nivel - 1].Count - 1; i++)
                 {
-                    float x = (1 - t) * puntosActuales[i].X + t * puntosActuales[i + 1].X;
-                    float y = (1 - t) * puntosActuales[i].Y + t * puntosActuales[i + 1].Y;
-                    siguientesPuntos.Add(new PointF(x, y));
-                    
-                    if (puntosActuales.Count > 2) // Solo dibujar líneas de construcción si hay más de 2 puntos
+                    float x = (1 - t) * niveles[nivel - 1][i].X + t * niveles[nivel - 1][i + 1].X;
+                    float y = (1 - t) * niveles[nivel - 1][i].Y + t * niveles[nivel - 1][i + 1].Y;
+                    niveles[nivel].Add(new PointF(x, y));
+                }
+            }
+            
+            // Dibujar todas las líneas de construcción
+            for (int nivel = 0; nivel < puntos.Count - 1; nivel++)
+            {
+                if (niveles[nivel] != null && niveles[nivel].Count > 1)
+                {
+                    // Dibujar líneas de construcción
+                    for (int i = 0; i < niveles[nivel].Count - 1; i++)
                     {
-                        g.DrawLine(penLineas, puntosActuales[i], puntosActuales[i + 1]);
+                        g.DrawLine(penLineas, niveles[nivel][i], niveles[nivel][i + 1]);
+                    }
+                    
+                    // Dibujar puntos de control intermedios
+                    foreach (var punto in niveles[nivel])
+                    {
+                        g.FillEllipse(Brushes.Green, punto.X - 2, punto.Y - 2, 4, 4);
                     }
                 }
-
-                // Dibujar puntos intermedios
-                foreach (var punto in puntosActuales)
-                {
-                    g.FillEllipse(Brushes.Green, punto.X - 2, punto.Y - 2, 4, 4);
-                }
-
-                // Actualizar para la siguiente iteración
-                var temp = puntosActuales;
-                puntosActuales = siguientesPuntos;
-                siguientesPuntos = temp;
             }
 
             // Dibujar el punto actual de la curva
-            if (puntosActuales.Count > 0)
+            if (niveles[puntos.Count - 1] != null && niveles[puntos.Count - 1].Count > 0)
             {
-                PointF puntoCurva = puntosActuales[0];
+                PointF puntoCurva = niveles[puntos.Count - 1][0];
                 puntosCurva.Add(puntoCurva);
                 
                 // Dibujar la curva hasta el momento
@@ -196,9 +202,29 @@ namespace Graficar_lineas.Models
                 // Dibujar el punto actual
                 g.FillEllipse(Brushes.Blue, puntoCurva.X - 3, puntoCurva.Y - 3, 6, 6);
             }
+            
+            // Dibujar los puntos de control originales
+            foreach (var punto in puntos)
+            {
+                g.FillEllipse(Brushes.Red, punto.X - 3, punto.Y - 3, 6, 6);
+            }
         }
 
         // Implementación de IDisposable
+        public void ActualizarLapiz(Pen nuevoPen)
+        {
+            if (nuevoPen == null) return;
+            
+            // Liberar el lápiz anterior si existe
+            if (pen != null)
+            {
+                pen.Dispose();
+            }
+            
+            // Asignar el nuevo lápiz
+            pen = (Pen)nuevoPen.Clone();
+        }
+
         public void Dispose()
         {
             Dispose(true);
@@ -221,6 +247,9 @@ namespace Graficar_lineas.Models
                 disposed = true;
             }
         }
+
+
+
 
         ~Linea()
         {

@@ -34,6 +34,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnRecortar = new System.Windows.Forms.Button();
             this.pbxLienzo = new System.Windows.Forms.PictureBox();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.gbControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLienzo)).BeginInit();
             this.SuspendLayout();
@@ -50,12 +51,13 @@
             // gbControles
             // 
             this.gbControles.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbControles.Controls.Add(this.btnInicio);
             this.gbControles.Controls.Add(this.btnExit);
             this.gbControles.Controls.Add(this.btnLimpiar);
             this.gbControles.Controls.Add(this.btnRecortar);
             this.gbControles.Location = new System.Drawing.Point(30, 12);
             this.gbControles.Name = "gbControles";
-            this.gbControles.Size = new System.Drawing.Size(200, 272);
+            this.gbControles.Size = new System.Drawing.Size(200, 341);
             this.gbControles.TabIndex = 4;
             this.gbControles.TabStop = false;
             this.gbControles.Text = "Controles";
@@ -108,6 +110,17 @@
             this.pbxLienzo.TabIndex = 3;
             this.pbxLienzo.TabStop = false;
             // 
+            // btnInicio
+            // 
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(66, 253);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 13;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
             // FrmCohen_Sutherland
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -136,5 +149,6 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnRecortar;
         private System.Windows.Forms.PictureBox pbxLienzo;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

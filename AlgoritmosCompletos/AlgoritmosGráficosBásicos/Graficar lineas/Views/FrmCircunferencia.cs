@@ -74,5 +74,10 @@ namespace Graficar_lineas
             // No es necesario liberar recursos aquí ya que el controlador se encarga de eso
             // El garbage collector se encargará de liberar el controlador cuando el formulario se cierre
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -65,5 +65,10 @@ namespace Graficar_lineas
         {
             _controller.BtnReseat_Click(sender, e);
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

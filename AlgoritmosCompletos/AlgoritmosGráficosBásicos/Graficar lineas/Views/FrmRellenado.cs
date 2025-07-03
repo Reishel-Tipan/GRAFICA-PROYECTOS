@@ -45,5 +45,15 @@ namespace Graficar_lineas
         {
             _controller.PicDibujo_MouseClick(sender, e);
         }
+
+        private void btnReseat_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

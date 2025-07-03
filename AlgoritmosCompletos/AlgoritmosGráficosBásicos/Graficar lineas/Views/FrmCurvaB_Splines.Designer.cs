@@ -33,20 +33,18 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictuCanva = new System.Windows.Forms.PictureBox();
             this.txtNumerodePuntos = new System.Windows.Forms.TextBox();
-            this.BtnBezier = new System.Windows.Forms.Button();
+            this.BtnSpline = new System.Windows.Forms.Button();
             this.BtnStartAnimation = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnLimpiarTodo = new System.Windows.Forms.Button();
             this.ColorBox = new System.Windows.Forms.GroupBox();
             this.pic_color = new System.Windows.Forms.Button();
             this.BtnColorSet = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictuCanva)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.ColorBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -81,29 +79,29 @@
             // 
             // txtNumerodePuntos
             // 
-            this.txtNumerodePuntos.Location = new System.Drawing.Point(32, 307);
+            this.txtNumerodePuntos.Location = new System.Drawing.Point(32, 318);
             this.txtNumerodePuntos.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumerodePuntos.Name = "txtNumerodePuntos";
             this.txtNumerodePuntos.Size = new System.Drawing.Size(98, 22);
             this.txtNumerodePuntos.TabIndex = 73;
             // 
-            // BtnBezier
+            // BtnSpline
             // 
-            this.BtnBezier.BackColor = System.Drawing.SystemColors.Window;
-            this.BtnBezier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BtnBezier.Location = new System.Drawing.Point(194, 378);
-            this.BtnBezier.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnBezier.Name = "BtnBezier";
-            this.BtnBezier.Size = new System.Drawing.Size(97, 37);
-            this.BtnBezier.TabIndex = 72;
-            this.BtnBezier.Text = "Empezar";
-            this.BtnBezier.UseVisualStyleBackColor = false;
+            this.BtnSpline.BackColor = System.Drawing.SystemColors.Window;
+            this.BtnSpline.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnSpline.Location = new System.Drawing.Point(194, 318);
+            this.BtnSpline.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSpline.Name = "BtnSpline";
+            this.BtnSpline.Size = new System.Drawing.Size(97, 37);
+            this.BtnSpline.TabIndex = 72;
+            this.BtnSpline.Text = "Empezar";
+            this.BtnSpline.UseVisualStyleBackColor = false;
             // 
             // BtnStartAnimation
             // 
             this.BtnStartAnimation.BackColor = System.Drawing.SystemColors.Window;
             this.BtnStartAnimation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BtnStartAnimation.Location = new System.Drawing.Point(194, 434);
+            this.BtnStartAnimation.Location = new System.Drawing.Point(194, 377);
             this.BtnStartAnimation.Margin = new System.Windows.Forms.Padding(4);
             this.BtnStartAnimation.Name = "BtnStartAnimation";
             this.BtnStartAnimation.Size = new System.Drawing.Size(97, 37);
@@ -168,36 +166,16 @@
             this.BtnColorSet.TabIndex = 10;
             this.BtnColorSet.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // btnInicio
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(32, 386);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 76;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 356);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 16);
-            this.label2.TabIndex = 77;
-            this.label2.Text = "Ingrese el grado:";
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(210, 437);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 76;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // FrmCurvaB_Splines
             // 
@@ -205,12 +183,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1045, 546);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.txtNumerodePuntos);
-            this.Controls.Add(this.BtnBezier);
+            this.Controls.Add(this.BtnSpline);
             this.Controls.Add(this.BtnStartAnimation);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ColorBox);
@@ -222,7 +199,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictuCanva)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ColorBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,14 +210,13 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox pictuCanva;
         private System.Windows.Forms.TextBox txtNumerodePuntos;
-        private System.Windows.Forms.Button BtnBezier;
+        private System.Windows.Forms.Button BtnSpline;
         private System.Windows.Forms.Button BtnStartAnimation;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnLimpiarTodo;
         private System.Windows.Forms.GroupBox ColorBox;
         private System.Windows.Forms.Button pic_color;
         private System.Windows.Forms.Button BtnColorSet;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

@@ -1,11 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Graficar_lineas.Views;
 
@@ -13,134 +8,109 @@ namespace Graficar_lineas
 {
     public partial class FrmHome : Form
     {
-
         public FrmHome()
         {
             InitializeComponent();
-            this.IsMdiContainer = true; // Esto habilita el contenedor MDI
-        }
-        private void CerrarFormulariosHijos()
-        {
-            // Recorrer todos los formularios abiertos (hijos)
-            foreach (Form form in this.MdiChildren)
-            {
-                // Cerrar todos los formularios hijos
-                form.Close();
-            }
+            this.Text = "Algoritmos gráficos";
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.BackColor = Color.White;
+
+            this.Load += FrmInicio_Load;
         }
 
-        private void HideLabel()
+        private void AbrirFormulario(Form form)
         {
-            lblTitulo.Visible = false;
-            label1.Visible = false;
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.Show();
+            this.Hide(); // Oculta FrmHome
+            form.FormClosed += (s, args) => this.Show(); // ✅ Al cerrarse el hijo, se vuelve a mostrar Home
+
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmDDA());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmBresenham());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmElipseBresenham());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCircunferencia());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmScanline());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmRellenado());
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCurvaB_Splines());
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCurvaBézier());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmSutherland_Hodgman());
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCohen_Sutherland());
+        }
 
         private void FrmInicio_Load(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is Button btn)
+                {
+                    btn.BackColor = Color.FromArgb(0, 160, 255); // Celeste moderno
+                    btn.ForeColor = Color.White;
+                    btn.FlatStyle = FlatStyle.Flat;
+                    btn.FlatAppearance.BorderSize = 0;
+                    btn.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+                    btn.Cursor = Cursors.Hand;
 
+                    // Opcional: efecto al pasar el mouse
+                    btn.MouseEnter += (s, ev) => btn.BackColor = Color.FromArgb(0, 120, 220);
+                    btn.MouseLeave += (s, ev) => btn.BackColor = Color.FromArgb(0, 160, 255);
+                }
+            }
         }
 
-        private void algoritmoDDAToolStripMenuItem1_Click(object sender, EventArgs e)
+        private IEnumerable<Button> GetAllButtons(Control container)
         {
-            HideLabel();
-            CerrarFormulariosHijos();
-            // Verificar si FrmBresenham ya está abierto, si es así, lo activamos
-            FrmDDA DDAForm = new FrmDDA();
-            DDAForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            DDAForm.Show();
+            foreach (Control c in container.Controls)
+            {
+                if (c is Button btn)
+                    yield return btn;
+
+                foreach (var subBtn in GetAllButtons(c))
+                    yield return subBtn;
+            }
         }
 
-        private void algoritmoDeBresenhamToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            // Verificar si FrmBresenham ya está abierto, si es así, lo activamos
-            FrmBresenham BresenhamForm = new FrmBresenham();
-            BresenhamForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            BresenhamForm.Show();
-        }
 
-        private void disToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            // Verificar si FrmBresenham ya está abierto, si es así, lo activamos
-            FrmCircunferencia CircunferenciaForm = new FrmCircunferencia();
-            CircunferenciaForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            CircunferenciaForm.Show();
-        }
-
-        private void rellenadoDeInundaciónToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            // Verificar si FrmBresenham ya está abierto, si es así, lo activamos
-            FrmRellenado RellenadoForm = new FrmRellenado();
-            RellenadoForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            RellenadoForm.Show();
-        }
-
-        private void lblTitulo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bresenhamParaElipsesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmElipseBresenham ElipseForm = new FrmElipseBresenham();
-            ElipseForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            ElipseForm.Show();
-        }
-
-        private void scanlineToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmScanline ScalineForm = new FrmScanline();
-            ScalineForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            ScalineForm.Show();
-        }
-
-        private void curvasDeBézierToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmCurvaBézier BézierForm = new FrmCurvaBézier();
-            BézierForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            BézierForm.Show();
-
-        }
-
-        private void curvasBsplinesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmCurvaB_Splines splineForm = new FrmCurvaB_Splines();
-            splineForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            splineForm.Show();
-        }
-
-        private void cohenSutherlandToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmCohen_Sutherland cohenForm = new FrmCohen_Sutherland();
-            cohenForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            cohenForm.Show();
-        }
-
-        private void sutherlandHodgmanToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HideLabel();
-            CerrarFormulariosHijos();
-            FrmSutherland_Hodgman sutherlandForm = new FrmSutherland_Hodgman();
-            sutherlandForm.MdiParent = this; // Establecer este formulario como MDI Parent
-            sutherlandForm.Show();
-
-        }
     }
-    
 }

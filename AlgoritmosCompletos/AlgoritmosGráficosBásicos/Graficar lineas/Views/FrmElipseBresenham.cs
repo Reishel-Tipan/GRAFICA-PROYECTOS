@@ -88,5 +88,10 @@ namespace Graficar_lineas.Views
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

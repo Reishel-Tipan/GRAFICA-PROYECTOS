@@ -233,5 +233,10 @@ namespace Graficar_lineas.Views
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -49,7 +49,7 @@
     <Compile Include="Controllers\BresenhamController.cs" />
     <Compile Include="Controllers\CircunferenciaController.cs" />
     <Compile Include="Controllers\Cohen_SutherlandController.cs" />
-    <Compile Include="Controllers\CurvaB_SplineController.cs" />
+    <Compile Include="Controllers\CurvaB_SplinesController.cs" />
     <Compile Include="Controllers\CurvaBézierController.cs" />
     <Compile Include="Controllers\DDAController.cs" />
     <Compile Include="Controllers\ElipseBreshController.cs" />

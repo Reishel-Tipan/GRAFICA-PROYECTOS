@@ -40,6 +40,7 @@ namespace Graficar_lineas.Views
             this.listBox = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.ColorBox.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictuCanva)).BeginInit();
@@ -100,7 +101,7 @@ namespace Graficar_lineas.Views
             this.BtnLine.Location = new System.Drawing.Point(23, 21);
             this.BtnLine.Margin = new System.Windows.Forms.Padding(4);
             this.BtnLine.Name = "BtnLine";
-            this.BtnLine.Size = new System.Drawing.Size(61, 48);
+            this.BtnLine.Size = new System.Drawing.Size(48, 48);
             this.BtnLine.TabIndex = 0;
             this.BtnLine.UseVisualStyleBackColor = false;
             // 
@@ -136,7 +137,7 @@ namespace Graficar_lineas.Views
             this.pictuCanva.Location = new System.Drawing.Point(8, 23);
             this.pictuCanva.Margin = new System.Windows.Forms.Padding(5);
             this.pictuCanva.Name = "pictuCanva";
-            this.pictuCanva.Size = new System.Drawing.Size(732, 493);
+            this.pictuCanva.Size = new System.Drawing.Size(664, 494);
             this.pictuCanva.TabIndex = 54;
             this.pictuCanva.TabStop = false;
             this.pictuCanva.Paint += new System.Windows.Forms.PaintEventHandler(this.PictuCanva_Paint);
@@ -156,7 +157,7 @@ namespace Graficar_lineas.Views
             this.groupBox2.Controls.Add(this.pictuCanva);
             this.groupBox2.Location = new System.Drawing.Point(285, 9);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(748, 525);
+            this.groupBox2.Size = new System.Drawing.Size(680, 525);
             this.groupBox2.TabIndex = 62;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Gráfico";
@@ -171,11 +172,23 @@ namespace Graficar_lineas.Views
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Píxeles pintados";
             // 
+            // btnInicio
+            // 
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(971, 482);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 64;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
             // FrmScanline
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1045, 546);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -207,5 +220,6 @@ namespace Graficar_lineas.Views
         private System.Windows.Forms.ListBox listBox;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

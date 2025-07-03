@@ -34,6 +34,7 @@ namespace Graficar_lineas
             this.listBoxPuntos = new System.Windows.Forms.ListBox();
             this.picCanvas2 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnReseat = new System.Windows.Forms.Button();
             this.btnGraficar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@ namespace Graficar_lineas
             this.txtX_1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.picDibujo = new System.Windows.Forms.PictureBox();
-            this.btnReseat = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas2)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -88,6 +89,7 @@ namespace Graficar_lineas
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnInicio);
             this.groupBox2.Controls.Add(this.btnReseat);
             this.groupBox2.Controls.Add(this.btnGraficar);
             this.groupBox2.Controls.Add(this.label2);
@@ -108,9 +110,20 @@ namespace Graficar_lineas
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
+            // btnReseat
+            // 
+            this.btnReseat.Location = new System.Drawing.Point(203, 92);
+            this.btnReseat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReseat.Name = "btnReseat";
+            this.btnReseat.Size = new System.Drawing.Size(97, 37);
+            this.btnReseat.TabIndex = 11;
+            this.btnReseat.Text = "Limpiar";
+            this.btnReseat.UseVisualStyleBackColor = true;
+            this.btnReseat.Click += new System.EventHandler(this.BtnReseat_Click);
+            // 
             // btnGraficar
             // 
-            this.btnGraficar.Location = new System.Drawing.Point(203, 56);
+            this.btnGraficar.Location = new System.Drawing.Point(203, 41);
             this.btnGraficar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGraficar.Name = "btnGraficar";
             this.btnGraficar.Size = new System.Drawing.Size(97, 37);
@@ -225,16 +238,16 @@ namespace Graficar_lineas
             this.picDibujo.TabIndex = 0;
             this.picDibujo.TabStop = false;
             // 
-            // btnReseat
+            // btnInicio
             // 
-            this.btnReseat.Location = new System.Drawing.Point(203, 111);
-            this.btnReseat.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReseat.Name = "btnReseat";
-            this.btnReseat.Size = new System.Drawing.Size(97, 37);
-            this.btnReseat.TabIndex = 11;
-            this.btnReseat.Text = "Limpiar";
-            this.btnReseat.UseVisualStyleBackColor = true;
-            this.btnReseat.Click += new System.EventHandler(this.BtnReseat_Click);
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(220, 141);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(62, 46);
+            this.btnInicio.TabIndex = 13;
+            this.btnInicio.Text = "🏠";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // FrmCircunferencia
             // 
@@ -278,5 +291,6 @@ namespace Graficar_lineas
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox picDibujo;
         private System.Windows.Forms.Button btnReseat;
+        private System.Windows.Forms.Button btnInicio;
     }
 }

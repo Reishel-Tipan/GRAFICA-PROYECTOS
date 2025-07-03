@@ -113,7 +113,13 @@ namespace Graficar_lineas
 
         private void FrmLineas_Load(object sender, EventArgs e)
         {
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
 
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -181,5 +181,10 @@ namespace Graficar_lineas.Views
         {
             this.Close();
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
