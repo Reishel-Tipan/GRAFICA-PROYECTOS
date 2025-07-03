@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D7FF69C-CEFD-4BD3-A208-B5DA69381A6F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Graficar_lineas</RootNamespace>
+    <AssemblyName>Graficar lineas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\BresenhamController.cs" />
+    <Compile Include="Controllers\CircunferenciaController.cs" />
+    <Compile Include="Controllers\Cohen_SutherlandController.cs" />
+    <Compile Include="Controllers\CurvaB_SplineController.cs" />
+    <Compile Include="Controllers\CurvaBézierController.cs" />
+    <Compile Include="Controllers\DDAController.cs" />
+    <Compile Include="Controllers\ElipseBreshController.cs" />
+    <Compile Include="Controllers\RomboController.cs" />
+    <Compile Include="Controllers\ScanlineController.cs" />
+    <Compile Include="Controllers\Sutherland–HodgmanController.cs" />
+    <Compile Include="Models\Bresenham.cs" />
+    <Compile Include="Models\Circunferencia.cs" />
+    <Compile Include="Models\Cohen_Sutherland.cs" />
+    <Compile Include="Models\CurvaB_Spline.cs" />
+    <Compile Include="Models\CurvaBézier.cs" />
+    <Compile Include="Models\ElipseBresenham.cs" />
+    <Compile Include="Models\Linea.cs" />
+    <Compile Include="Models\Scanline.cs" />
+    <Compile Include="Models\Sutherland–Hodgman.cs" />
+    <Compile Include="Views\FrmCircunferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmCircunferencia.Designer.cs">
+      <DependentUpon>FrmCircunferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmCohen_Sutherland.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmCohen_Sutherland.Designer.cs">
+      <DependentUpon>FrmCohen_Sutherland.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmCurvaB_Splines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmCurvaB_Splines.Designer.cs">
+      <DependentUpon>FrmCurvaB_Splines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmCurvaBézier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmCurvaBézier.Designer.cs">
+      <DependentUpon>FrmCurvaBézier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmDDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmDDA.Designer.cs">
+      <DependentUpon>FrmDDA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmBresenham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmBresenham.Designer.cs">
+      <DependentUpon>FrmBresenham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmElipseBresenham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmElipseBresenham.Designer.cs">
+      <DependentUpon>FrmElipseBresenham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmRellenado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmRellenado.Designer.cs">
+      <DependentUpon>FrmRellenado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DDA.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\RellenoRombo.cs" />
+    <Compile Include="Views\FrmScanline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmScanline.Designer.cs">
+      <DependentUpon>FrmScanline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmSutherland_Hodgman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmSutherland_Hodgman.Designer.cs">
+      <DependentUpon>FrmSutherland_Hodgman.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\FrmCircunferencia.resx">
+      <DependentUpon>FrmCircunferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmCohen_Sutherland.resx">
+      <DependentUpon>FrmCohen_Sutherland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmCurvaB_Splines.resx">
+      <DependentUpon>FrmCurvaB_Splines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmCurvaBézier.resx">
+      <DependentUpon>FrmCurvaBézier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmDDA.resx">
+      <DependentUpon>FrmDDA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmBresenham.resx">
+      <DependentUpon>FrmBresenham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmElipseBresenham.resx">
+      <DependentUpon>FrmElipseBresenham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmRellenado.resx">
+      <DependentUpon>FrmRellenado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\FrmScanline.resx">
+      <DependentUpon>FrmScanline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmSutherland_Hodgman.resx">
+      <DependentUpon>FrmSutherland_Hodgman.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
