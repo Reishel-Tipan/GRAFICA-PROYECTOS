@@ -1,0 +1,108 @@
+<div class="viewer-container" (window:resize)="onResize()">
+  <!-- Canvas 3D -->
+  <div class="canvas-container">
+    <canvas #canvas tabindex="0" aria-label="Área de visualización 3D"></canvas>
+    
+    <!-- Pantalla de título estilo videojuego -->
+    <div class="title-screen" *ngIf="showTitleScreen">
+      <div class="title-content">
+        <h1 class="title">3D FIGURES</h1>
+        <h2 class="subtitle">VISUALIZADOR INTERACTIVO</h2>
+        <div class="instructions">
+          <p>Selecciona una figura del menú para empezar</p>
+          <div class="arrow-down">¡Diviértete!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Panel de controles -->
+  <div class="controls-panel" [class.visible]="showControls" role="region" aria-label="Controles del visor 3D">
+    <div class="controls-panel-inner">
+      <div class="controls-header">
+        <h2>Controles 3D</h2>
+      </div>
+    
+    <!-- Selector de figura -->
+    <div class="control-group">
+      <label for="shape">Figura:</label>
+      <select id="shape" [(ngModel)]="selectedShape" (change)="onShapeChange()">
+        <option *ngFor="let shape of shapes" [value]="shape.value">
+          {{ shape.label }}
+        </option>
+      </select>
+    </div>
+
+    <!-- Selector de color -->
+    <div class="control-group">
+      <label for="color">Color:</label>
+      <input type="color" id="color" [(ngModel)]="color" (input)="onColorChange()">
+    </div>
+
+    <!-- Controles de rotación -->
+    <div class="control-group">
+      <h3>Rotación</h3>
+      <div class="slider-control">
+        <label>X: {{ rotation.x | number:'1.0-0' }}°</label>
+        <input type="range" min="-180" max="180" [(ngModel)]="rotation.x" (input)="onRotationChange()">
+      </div>
+      <div class="slider-control">
+        <label>Y: {{ rotation.y | number:'1.0-0' }}°</label>
+        <input type="range" min="-180" max="180" [(ngModel)]="rotation.y" (input)="onRotationChange()">
+      </div>
+      <div class="slider-control">
+        <label>Z: {{ rotation.z | number:'1.0-0' }}°</label>
+        <input type="range" min="-180" max="180" [(ngModel)]="rotation.z" (input)="onRotationChange()">
+      </div>
+      <div class="button-container">
+        <button (click)="resetRotation()">Reiniciar Rotación</button>
+      </div>
+    </div>
+
+    <!-- Controles de posición -->
+    <div class="control-group">
+      <h3>Posición</h3>
+      <div class="slider-control">
+        <label>X: {{ position.x | number:'1.1-1' }}</label>
+        <input type="range" min="-5" max="5" step="0.1" [(ngModel)]="position.x" (input)="onPositionChange()">
+      </div>
+      <div class="slider-control">
+        <label>Y: {{ position.y | number:'1.1-1' }}</label>
+        <input type="range" min="-5" max="5" step="0.1" [(ngModel)]="position.y" (input)="onPositionChange()">
+      </div>
+      <div class="slider-control">
+        <label>Z: {{ position.z | number:'1.1-1' }}</label>
+        <input type="range" min="-5" max="5" step="0.1" [(ngModel)]="position.z" (input)="onPositionChange()">
+      </div>
+      <div class="button-container">
+        <button (click)="resetCamera()">Centrar Cámara</button>
+      </div>
+    </div>
+
+    <!-- Control de escala -->
+    <div class="control-group">
+      <h3>Escala</h3>
+      <div class="slider-control">
+        <label for="scale">Escala: {{ scale | number:'1.1-1' }}x</label>
+        <input id="scale" type="range" min="0.1" max="3" step="0.1" [(ngModel)]="scale" (input)="onScaleChange()" aria-valuemin="0.1" aria-valuemax="3" [attr.aria-valuenow]="scale">
+      </div>
+      <div class="button-container">
+        <button (click)="resetScale()" [attr.aria-label]="'Restablecer escala a 1.0'" title="Restablecer escala a 1.0">
+          <span class="icon">↺</span> Restablecer Escala
+        </button>
+      </div>
+    </div>
+
+    <!-- Controles adicionales -->
+    <div class="control-group">
+      <h3>Opciones</h3>
+      <label>
+        <input type="checkbox" [(ngModel)]="isRotating" (change)="toggleRotation()">
+        Rotación automática
+      </label>
+      <div class="button-container">
+        <button class="reset-all" (click)="resetAll()">Reiniciar Todo</button>
+      </div>
+    </div>
+    </div>
+  </div>
