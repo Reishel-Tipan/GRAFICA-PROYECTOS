@@ -43,7 +43,6 @@ namespace Graficar_lineas.Views
             btnRecortar.Enabled = false;
             btnRecortar.Click += BtnRecortar_Click;
             btnLimpiar.Click += BtnLimpiar_Click;
-            btnExit.Click += BtnExit_Click;
 
             // Configurar barra de estado
             tsslMensaje = new ToolStripStatusLabel();

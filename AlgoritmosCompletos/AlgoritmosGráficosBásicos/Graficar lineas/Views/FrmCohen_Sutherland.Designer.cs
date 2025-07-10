@@ -30,7 +30,6 @@
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.gbControles = new System.Windows.Forms.GroupBox();
-            this.btnExit = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnRecortar = new System.Windows.Forms.Button();
             this.pbxLienzo = new System.Windows.Forms.PictureBox();
@@ -52,25 +51,14 @@
             // 
             this.gbControles.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gbControles.Controls.Add(this.btnInicio);
-            this.gbControles.Controls.Add(this.btnExit);
             this.gbControles.Controls.Add(this.btnLimpiar);
             this.gbControles.Controls.Add(this.btnRecortar);
             this.gbControles.Location = new System.Drawing.Point(30, 12);
             this.gbControles.Name = "gbControles";
-            this.gbControles.Size = new System.Drawing.Size(200, 341);
+            this.gbControles.Size = new System.Drawing.Size(200, 281);
             this.gbControles.TabIndex = 4;
             this.gbControles.TabStop = false;
             this.gbControles.Text = "Controles";
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.SystemColors.Window;
-            this.btnExit.Location = new System.Drawing.Point(42, 182);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(119, 51);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Salir";
-            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // btnLimpiar
             // 
@@ -113,7 +101,7 @@
             // btnInicio
             // 
             this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInicio.Location = new System.Drawing.Point(66, 253);
+            this.btnInicio.Location = new System.Drawing.Point(64, 202);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(62, 46);
             this.btnInicio.TabIndex = 13;
@@ -145,7 +133,6 @@
 
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.GroupBox gbControles;
-        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnRecortar;
         private System.Windows.Forms.PictureBox pbxLienzo;
